@@ -32,3 +32,5 @@ class feed_forward_network:
 		self.hiddDelta = zeros((self.numOfHidden), dtype = float)
 		self.outputDelta = zeros((self.numOfOutput), dtype = float)
 
+	def feed_forward(self, input):
+
